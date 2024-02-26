@@ -1,5 +1,5 @@
 * {
-    /* outline: 2px red solid; */
+    outline: 1px red solid;
 }
 
 body {
@@ -7,7 +7,87 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* -----HERO SECTION------- */
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+}
+
+.header a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.intro-text h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+#head-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 10px 0;
+    padding: 8px 25px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.intro-photo {
+    width: 700px;
+    height: 300px;
+}
+
+/* -----MAIN SECTION------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-boxes {
+    width: 100px;
+}
+
+/* -----FOOTER SECTION------- */
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
 }
