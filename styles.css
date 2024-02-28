@@ -1,7 +1,3 @@
-* {
-    outline: 1px red solid;
-}
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,12 +60,16 @@ body {
     padding: 8px 25px;
     border-radius: 6px;
     border-style: none;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .intro-photo {
     width: 700px;
     height: 300px;
 }
+
+
 
 /* -----MAIN SECTION------- */
 
@@ -118,14 +118,22 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
-    margin-top: 350px;
+    font-weight: 100;
+    margin-top: 300px;
     padding: 60px;
+}
+
+#source {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .CTA {
     color: #F9FAF8;
-    margin-top: 25px;
+    margin-top: 100px;
     margin-bottom: 55px;
     padding: 0 200px;
     background-color:#3882f6;
@@ -141,20 +149,27 @@ h2 {
     flex-direction: column;
     align-self: flex-start;
     justify-content: center;
-    /* background-color: #1F2937; */
+    padding: 35px 0;
 }
 
-.cta-items > h3 {
-
+.cta-items > h3, p {
+    margin: 0;
 }
 
-#main-button > button {
+.main-button {
     border: 2px #F9FAF8 solid;
     border-radius: 6px;
     background-color: #3882f6;
     color: #F9FAF8;
-    border-style: none;
+    margin-left: 150px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-wrap: nowrap;
+    
 }
+
+
 
 /* -----FOOTER SECTION------- */
 
